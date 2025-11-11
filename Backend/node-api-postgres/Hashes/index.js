@@ -26,7 +26,7 @@ app.listen(port, () => {
 })
 
 
-const db = require('./queries')
+const db = require('../queries')
 
 
 app.get('/users', db.getUsers)
